@@ -5,11 +5,11 @@
         android:icon="@drawable/ic_joker_hat_svgrepo_com"
         app:showAsAction="ifRoom"
         app:actionViewClass="android.widget.SearchView"
-        android:title="TODO" />
+        android:title="Jokes" />
     <item
         android:id="@+id/webFragment"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_world_wide_web_svgrepo_com"
-        android:title="TODO" />
+        android:title="Api info" />
 
 </menu>

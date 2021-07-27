@@ -12,7 +12,7 @@ import com.example.hedgehog.ui.main.MainViewModel
 import com.example.hedgehog.ui.main.WebFragment
 
 class MainActivity : AppCompatActivity() {
-    val model: MainViewModel by viewModels()
+    private val model: MainViewModel by viewModels()
     private lateinit var binding: MainActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
